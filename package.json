@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "Gatsby hello world starter",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "gatsby": "^2.1.37",
+    "gatsby-link": "^1.6.34",
+    "gatsby-plugin-netlify-cms": "^3.0.16",
+    "gatsby-source-filesystem": "^2.0.27",
+    "gatsby-transformer-remark": "^2.3.5",
+    "netlify-cms": "^2.6.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZhenWang-Jen/gatsby-netlify-cms"
+  },
+  "bugs": {
+    "url": "https://github.com/ZhenWang-Jen/gatsby-netlify-cms/issues"
+  }
+}
